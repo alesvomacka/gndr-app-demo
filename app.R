@@ -21,7 +21,7 @@ ui <- fluidPage(
                                  "If something breaks, please contact me at alesvomacka@seznam.cz"
                              ),
                              mainPanel(
-                                 h1("Home"),
+                                 h1("Gender and Research"),
                                  p("This is a demo for an interactive Shiny application for presenting data on gender and research.
                                  The main advantage is that readers are not constrained by the static format format of the classic
                                  reports and can explore the data in any way they desire. Classic static reports can be used to highlight
@@ -44,8 +44,7 @@ ui <- fluidPage(
                             mainPanel(
                                 h1("Share of female researchers by sector of performance"),
                                 p("Researchers are professionals engaged in the conception or creation of new knowledge, products, processes, methods and systems, and in the management of the projects concerned.
-                                The share of women researchers in Czech Republic among total researchers across sectors and in time is shown in the plot below.
-                                "),
+                                The share of women researchers in Czech Republic among total researchers across sectors and in time is shown in the plot below."),
                                 br(),
                                 p("The share of women among researchers is relatively stable in time across all sectors, with the exception of the private non-profit sector,
                                   which saw a sharp raise between 2018 and 2019. The share of female researchers is also relatively low across most sectors, most notably in the bussiness enterprise sector."),
